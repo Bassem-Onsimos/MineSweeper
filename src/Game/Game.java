@@ -39,7 +39,7 @@ public class Game extends AbstractGame {
         setResizable(true);
         setDebugInfoDisplayed(false);
         setPausable(true);
-        setFBSlimited(true);
+        setFPSlimited(true);
         
         controller = new Controller(this);
         
